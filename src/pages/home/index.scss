@@ -1,0 +1,24 @@
+.home-container{
+  height: 100%;
+  padding: 0 10px;
+  &-icon-list{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &-icon{
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &-title{
+    color:darkviolet
+  }
+  .home-container-text{
+    text-align: center;
+  }
+  .pay-btn{
+    width: 300px;
+  }
+}
